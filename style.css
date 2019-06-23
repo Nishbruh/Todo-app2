@@ -52,11 +52,6 @@ body {
     color: red !important;
 }
 
-.container #adduser #errortxt {
-    color: red;
-    font-weight: none;
-    font-size: 12px;
-}
 
 .people {
     list-style: none;
