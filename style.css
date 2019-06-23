@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 40%;
+    border: solid 1px transparent;
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+.container #adduser #userinput {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px grey solid;
+}
+
+.container #adduser #add {
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    width: 50%;
+    padding: 15px;
+    background-color: transparent;
+    border-style: none;
+    border: 5px grey solid;
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.error {
+    border-bottom: red solid 2px !important;
+}
+
+.error::placeholder {
+    color: red !important;
+}
+
+.container #adduser #errortxt {
+    color: red;
+    font-weight: none;
+    font-size: 12px;
+}
+
+.people {
+    list-style: none;
+    border: solid 2px grey;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.x {
+    background-color: red;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 5%;
+    cursor: pointer;
+}
+
+.x:hover {
+    background-color: rgba(225, 0, 0, 0.5);
+}
