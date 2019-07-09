@@ -44,6 +44,14 @@ body {
     margin-top: 30px;
 }
 
+.container #userlist {
+    margin-top: 50px;
+}
+
+.container #userlist li {
+    margin-bottom: 10px;
+}
+
 .error {
     border-bottom: red solid 2px !important;
 }
@@ -54,12 +62,16 @@ body {
 
 
 .people {
-    list-style: none;
+
     border: solid 2px grey;
     padding: 5px;
     display: flex;
     justify-content: space-between;
 
+}
+
+#users {
+    list-style: none;
 }
 
 .x {
